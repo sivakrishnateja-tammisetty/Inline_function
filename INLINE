@@ -6,3 +6,26 @@ RULES:
 2.It doesn't contain looping statements & switch statement and goto.
 3.It doesn't use recursive function.
 4.Doesn't support static variables.
+
+
+Advantages:
+  .Fast execution
+  .If you do any changes after execution of prgm ,then again you should compile because the code coming at calling function.
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+inline int add(int a,int b)
+{
+    return a+b;
+}
+
+int main() {
+    int x=2,y=4;
+    cout<<"Sum of two numbers using inline function is: "<<add(x,y)<<endl;
+    return 0;
+}
