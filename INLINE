@@ -1,0 +1,8 @@
+INLINE FUNCTION:
+                .Inline function is a function, that is expanded inline when it is called.
+                .When inline function is called whole code of inline function gets inserted at the point of inline function call.
+RULES:
+1. single instruction(morethan 1 line in inline function is there,then it is treated as normal function).
+2.It doesn't contain looping statements & switch statement and goto.
+3.It doesn't use recursive function.
+4.Doesn't support static variables.
